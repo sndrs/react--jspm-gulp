@@ -1,4 +1,4 @@
-# JSPM + gulp + react
+# react + JSPM + gulp
 
 Simple react shell app, using JSPM and gulp.
 
