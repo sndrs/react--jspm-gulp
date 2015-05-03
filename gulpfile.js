@@ -15,7 +15,7 @@ gulp.task('browser-sync', function() {
         },
         "files": [
             "*.html",
-            "js/*"
+            "js/**/*"
         ]
     });
 });
