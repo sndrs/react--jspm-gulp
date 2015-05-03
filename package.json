@@ -18,6 +18,7 @@
     "gulp-html-replace": "^1.4.5",
     "gulp-rev-all": "^0.8.18",
     "gulp-shell": "^0.4.1",
+    "gulp-size": "^1.2.1",
     "run-sequence": "^1.1.0"
   }
 }

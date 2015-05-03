@@ -5,6 +5,7 @@ var del = require('del');
 var shell = require('gulp-shell');
 var RevAll = require('gulp-rev-all');
 var htmlreplace = require('gulp-html-replace');
+var size = require('gulp-size');
 
 // DEV TASKS
 gulp.task('browser-sync', function() {
@@ -45,8 +46,10 @@ gulp.task('rev', function() {
     var revAll = new RevAll({ dontRenameFile: ['.html'] });
     gulp.src('dist/**')
         .pipe(revAll.revision())
-        .pipe(gulp.dest('dist'))
-        .pipe(revAll.manifestFile())
+        .pipe(size({
+            showFiles: true,
+            gzip: true
+        }))
         .pipe(gulp.dest('dist'));
 });
 
