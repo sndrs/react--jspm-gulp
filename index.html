@@ -5,10 +5,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- build:js -->
+    <!-- this whole block is replaced in the `gulp build` task with a single script tag that loads the bundled JS -->
     <script src="jspm_packages/system.js"></script>
     <script src="config.js"></script>
     <script>
-    System.import('js/app');
+        System.import('js/app');
     </script>
     <!-- endbuild -->
 </head>
