@@ -20,5 +20,32 @@
     "gulp-shell": "^0.4.1",
     "gulp-size": "^1.2.1",
     "run-sequence": "^1.1.0"
-  }
+  },
+  "name": "React + JSPM + gulp",
+  "description": "Simple react shell app, using JSPM and gulp.",
+  "version": "1.0.0",
+  "main": "index.html",
+  "dependencies": {
+    "del": "^1.1.1",
+    "gulp": "^3.8.11",
+    "gulp-rev-all": "^0.8.18",
+    "gulp-html-replace": "^1.4.5",
+    "gulp-shell": "^0.4.1",
+    "gulp-size": "^1.2.1",
+    "browser-sync": "^2.6.9",
+    "run-sequence": "^1.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sndrs/react-jspm-gulp.git"
+  },
+  "author": "Alex Sanders",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sndrs/react-jspm-gulp/issues"
+  },
+  "homepage": "https://github.com/sndrs/react-jspm-gulp"
 }
