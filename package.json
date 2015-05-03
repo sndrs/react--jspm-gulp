@@ -2,6 +2,7 @@
   "jspm": {
     "directories": {},
     "dependencies": {
+      "domready": "npm:domready@^1.0.8",
       "react": "npm:react@^0.13.2"
     },
     "devDependencies": {
