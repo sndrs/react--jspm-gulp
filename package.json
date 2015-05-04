@@ -2,7 +2,9 @@
   "jspm": {
     "directories": {},
     "dependencies": {
+      "css": "github:systemjs/plugin-css@^0.1.10",
       "domready": "npm:domready@^1.0.8",
+      "normalize": "github:necolas/normalize.css@^3.0.3",
       "react": "npm:react@^0.13.2"
     },
     "devDependencies": {

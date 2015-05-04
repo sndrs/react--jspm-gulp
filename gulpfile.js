@@ -15,7 +15,7 @@ gulp.task('browser-sync', function() {
         },
         "files": [
             "*.html",
-            "js/**/*"
+            "app/**/*"
         ]
     });
 });
@@ -39,7 +39,7 @@ gulp.task('html', function () {
 });
 
 gulp.task('js', shell.task([
-  'jspm bundle-sfx js/app dist/js/app.js --minify'
+  'jspm bundle-sfx app/main dist/js/app.js --minify'
 ]));
 
 gulp.task('rev', function() {
