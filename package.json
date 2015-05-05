@@ -1,6 +1,5 @@
 {
   "jspm": {
-    "directories": {},
     "dependencies": {
       "css": "github:systemjs/plugin-css@^0.1.10",
       "domready": "npm:domready@^1.0.8",
@@ -23,7 +22,7 @@
     "gulp-size": "^1.2.1",
     "run-sequence": "^1.1.0"
   },
-  "name": "React + JSPM + gulp",
+  "name": "React-JSPM-gulp",
   "description": "Simple react shell app, using JSPM and gulp.",
   "version": "1.0.0",
   "main": "index.html",
